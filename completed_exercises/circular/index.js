@@ -20,7 +20,6 @@ function circular(list) {
     slow = slow.next;
     fast = fast.next.next;
 
-
     if (slow === fast) {
       return true;
     }
