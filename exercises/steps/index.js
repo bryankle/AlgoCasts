@@ -17,6 +17,7 @@
 //       '### '
 //       '####'
 
+
 function steps(n) {
     var arr = new Array(n).fill(' ');
     for (var i = 0; i < n; i++) {
